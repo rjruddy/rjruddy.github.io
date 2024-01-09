@@ -1,6 +1,10 @@
 
-body {
-    background-color: #daebea;
+main {
+    background-color:lightsteelblue
+}
+
+.topnav {
+    background-color:slateblue;
 }
 
 h1 {
