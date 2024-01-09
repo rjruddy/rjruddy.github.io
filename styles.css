@@ -1,5 +1,10 @@
+:root .navlinks {
+    font-family:Didot;
+    text-decoration: none;
+    color:white !important;
+}
 
-main {
+body {
     background-color:lightsteelblue
 }
 
