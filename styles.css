@@ -1,21 +1,64 @@
-#navlinks {
-    font-family:Didot;
-    text-decoration: none;
-    color:white !important;
-    text-align: center;
-    font-size:2vmax;
+*, html {
+    margin:0px;
+    padding:0px;
 }
 
 body {
-    background-color:lightsteelblue
+    background-color:lightsteelblue;
+    margin:0px;
+    padding:0px;
 }
 
 .topnav {
-    background-color:slateblue;
+    background-color:rgb(24, 17, 68);
+    margin:0px;
+    padding:0.75%;
+    text-align: center;
+    position:sticky;
+    font-family:Didot;
 }
 
-h1 {
-    color: #1d2124;
-    font-size: 36px;
-    text-align: center;
+nav {
+    display: flex;
+    justify-content: center;
+    gap:10px;
 }
+
+.topnav a {
+    text-decoration: none;
+    color:white !important;
+    text-align: center;
+    font-size:1.7vmax;
+}
+
+.topnav h1 {
+    color:white;
+}
+
+.topnav a:hover {
+    background-color: #34277d;
+}
+
+.topnav a:active {
+    color:aqua;
+}
+
+main {
+    color: #1d2124;
+    font-size: 100%;
+    text-align: left;
+    margin: 1%;
+    font-family: Georgia;
+    line-height:150%;
+}
+
+#home img {
+    float:left;
+    padding: 1%;
+}
+
+#home .textbody {
+    padding:1%;
+}
+
+
