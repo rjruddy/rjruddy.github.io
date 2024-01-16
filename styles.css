@@ -28,7 +28,7 @@ nav {
     text-decoration: none;
     color:white !important;
     text-align: center;
-    font-size:1.7vmax;
+    font-size:1.8vw;
 }
 
 .topnav h1 {
@@ -57,9 +57,13 @@ main h1 {
     color:#083458;
 }
 
-#profileDetails {
+#profileSkills {
     margin: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+.skills {
+    list-style-type:none;
 }
 
 #profileIntro {
