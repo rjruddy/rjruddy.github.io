@@ -6,13 +6,13 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
+    <header style="justify-content:center;">
         <div class="topnav">
             <img class="img" src="my_face_round.png" alt="A picture of my face" width="100">
             <div id="titleheader">
                 <h1>Rachel Ruddy</h1>
                 <nav>
-                    <a class="active" href="#home">Home</a>
+                    <a class="active" href="#home">About</a>
                     <a href="#resume">Resume</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
@@ -24,14 +24,21 @@
         <div id="home">
             <h1>About</h1>
             <div id="hometext">
-                <span class="infoblock" style="text-align:center;">
+                <span class="infoblock">
                     <h3>Who am I?</h3>
                     <p>I am Northwestern University class of 2024 with a major in Computer Science and a minor in French.
                         My primary interests lie in the intersection of art and technology, but I find fulfillment in
                         expanding my horizons and exploring new fields of tech. I have experience in both mobile and web UI/UX
                         design, game development, iOS and web development, as well as database management.</p>
                 </span>
-                <br>
+                <span class="infoblock">
+                    <h3>What about beyond technology?</h3>
+                    <p>When not developing and desigining, I like to pass my time with artistic pursuits, from music, to digital art, to acting, and more!
+                         In the summer, you can find me acting as a part of RenQuest at the Bristol Renaissance Faire! You can also find some examples of my 
+                         digital art in the Projects section.
+                    </p>
+                </span>
+                <hr>
                 <span class="infoblock">
                     <h3>What are my technical skills?</h3>
                     <p>I have experience picking up new languages and technologies on the fly from my time in university.
@@ -46,14 +53,19 @@
                     <h3>What are my design skills?</h3>
                     <p>Beyond technology, I enjoy expressing myself through art and design. I have designed several
                         high-fidelity mobile and web app interface prototypes using <b>Figma</b>. I also have experience
-                        taking a project through the full design lifecycle, from needfinding to paper prototyping to user testing.
+                        taking a project through the full design lifecycle, from needfinding to paper prototyping to user testing. 
+                        I believe in open-mindedness, and the value of quick iteration in finding long-term results.
                     </p>
                 </span>
             </div>
         </div>
         <div id="resume">
             <h1>Resume</h1>
-            <a class="downloadButton" href="Resume.pdf" download="rruddyResume">Download (pdf)</a>
+            <p>If you're looking to download my resume, look through the options below. </p>
+            <span class="buttonMargin">
+                <a class="downloadButton" href="Resume.pdf" download="rruddyResume">Download Technical Resume (pdf)</a>
+                <!-- Create a CV and add that here. -->
+            </span>
         </div>
         <div id="projects">
             <h1>Projects</h1>
