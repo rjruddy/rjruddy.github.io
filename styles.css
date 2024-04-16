@@ -14,52 +14,63 @@ body {
 /***/
 .topnav {
     background-color:rgb(24, 17, 68);
-    margin:0px;
-    padding:40px;
+    overflow:hidden;
+    padding: 20px 10px;
     font-family:Didot;
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* NOTE: THESE TWO LINES PRODUCE A STICKY HEADER */
+    /* position:fixed; */
+    /* z-index:1;
+    width:100% */
 }
 
-.topnavText {
-    text-align: left;
+.titleheader {
+    float:left;
+    width:200px;
 }
 
-@media (max-width: 750px) {
-    .topnavText {
-        float:none;
-        text-align:center;
-    }
+nav {
+    position:absolute;
+    right:0;
 }
 
-.topnav nav {
-    gap:30px;
-}
 
 .topnav a {
     text-decoration: none;
     color:white !important;
-    text-align: left;
-    font-size:4vh;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
 }
 
 .topnav h1 {
     color:white;
-    font-size:4vmax;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .topnav a:hover {
     background-color: #34277d;
 }
 
-.topnav a:active {
-    color:aqua;
+.topnav a.active {
+    background-color:rgb(30, 89, 218);
 }
 
-.img {
+nav {
+    float: right;
+}
+
+/* .img {
     width:50vw;
     height:50vh;
     display:block;
-}
+} */
 
 /***/
 /* Site Body */
