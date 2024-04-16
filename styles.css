@@ -9,26 +9,37 @@ body {
     padding:0px;
 }
 
+/***/
+/* Heading and Navigataion */
+/***/
 .topnav {
     background-color:rgb(24, 17, 68);
     margin:0px;
-    padding:0.75%;
-    text-align: center;
-    position:sticky;
+    padding:40px;
     font-family:Didot;
+    display:flex;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap:10px;
+.topnavText {
+    text-align: left;
+}
+
+@media (max-width: 750px) {
+    .topnavText {
+        float:none;
+        text-align:center;
+    }
+}
+
+.topnav nav {
+    gap:30px;
 }
 
 .topnav a {
     text-decoration: none;
     color:white !important;
-    text-align: center;
-    font-size:1.7vmax;
+    text-align: left;
+    font-size:4vh;
 }
 
 .topnav h1 {
@@ -44,6 +55,15 @@ nav {
     color:aqua;
 }
 
+.img {
+    width:50vw;
+    height:50vh;
+    display:block;
+}
+
+/***/
+/* Site Body */
+/***/
 main {
     color: #1d2124;
     font-size: 110%;
@@ -66,22 +86,18 @@ main h1 {
     display: flex;
 }
 
-.img {
-    width:50vw;
-    height:50vh;
-}
-
 #profileIntro img {
     width: 100%;
     height:auto;
     aspect-ratio:3/4;
 }
 
+/*
 @media (max-width:1200px) {
     #profileIntro img {
         display:none;
     }
-}
+} */
 
 #textbody {
     padding:50px;
