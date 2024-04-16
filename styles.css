@@ -9,41 +9,65 @@ body {
     padding:0px;
 }
 
+/***/
+/* Heading and Navigataion */
+/***/
 .topnav {
     background-color:rgb(24, 17, 68);
-    margin:0px;
-    padding:0.75%;
-    text-align: center;
-    position:sticky;
+    overflow:hidden;
+    padding: 20px 20px;
     font-family:Didot;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* NOTE: THESE TWO LINES PRODUCE A STICKY HEADER */
+    /* position:fixed; */
+    /* z-index:1;
+    width:100% */
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap:10px;
+.titleheader {
+    float:left;
+    width:200px;
 }
+
 
 .topnav a {
     text-decoration: none;
     color:white !important;
+    float: left;
     text-align: center;
-    font-size:1.8vw;
+    padding: 6px;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
 }
 
 .topnav h1 {
     color:white;
-    font-size:4vmax;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .topnav a:hover {
     background-color: #34277d;
 }
 
-.topnav a:active {
-    color:aqua;
+.topnav a.active {
+    background-color:rgb(30, 89, 218);
 }
 
+nav {
+    float: right;
+}
+
+.img {
+    padding-right:10px;
+}
+
+/***/
+/* Site Body */
+/***/
 main {
     color: #1d2124;
     font-size: 110%;
@@ -55,45 +79,39 @@ main {
 main h1 {
     line-height:200%;
     color:#083458;
+    text-align: center;
 }
 
-#profileSkills {
-    margin: 20px;
-    text-align: left;
+#hometext {
+    /* display:inline-block; */
+    text-align:center;
 }
 
-.skills {
-    list-style-type:none;
-}
-
-#profileIntro {
-    display: flex;
-}
-
-.image {
-    width:50vw;
-    height:50vh;
-}
-
-#profileIntro img {
-    width: 100%;
-    height:auto;
-    aspect-ratio:3/4;
-}
-
-h3 {
-    line-height: 150%
-}
-
-@media (max-width:1200px) {
-    .image {
-        display:none;
-    }
+.infoblock {
+    display:inline-block;
+    vertical-align:top;
+    width: 33%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:left;
 }
 
 #textbody {
     padding:50px;
 }
+
+ul {
+    text-align:left;
+    padding-left:20px;
+}
+
+/* hr {
+    width:5%;
+    justify-content:center;
+    color:black;
+} */
 
 footer {
     font-family:Didot;
@@ -117,5 +135,3 @@ footer {
 .downloadButton:hover {
     background-color:rgb(53, 22, 53);
 }
-
-

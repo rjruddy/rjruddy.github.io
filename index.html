@@ -6,49 +6,62 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>    
+    <header>
         <div class="topnav">
-            <h1>Rachel Ruddy</h1>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#resume">Resume</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
+            <img class="img" src="my_face_round.png" alt="A picture of my face" width="100">
+            <div id="titleheader">
+                <h1>Rachel Ruddy</h1>
+                <nav>
+                    <a class="active" href="#home">Home</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
         <div id="home">
-            <div id="profileIntro">
-                <div class="image">
-                    <img src="my_face.jpg" alt="A picture of my face" width="200">
-                </div>
-                <div id="textbody" style="display: inline;">
-                    <h1>About</h1>
+            <h1>About</h1>
+            <div id="hometext">
+                <span class="infoblock" style="text-align:center;">
                     <h3>Who am I?</h3>
-                    <p>I am Northwestern University class of 2024 with a major in Computer Science and a minor in French. 
+                    <p>I am Northwestern University class of 2024 with a major in Computer Science and a minor in French.
                         My primary interests lie in the intersection of art and technology, but I find fulfillment in
-                        expanding my horizons and exploring new fields of tech. I have experience in both mobile and web UI/UX 
-                        design, game development, iOS development, and database management.</p>
-                </div>
-            </div>
-            <div id="profileSkills"> <!--this div should be below the image + intro text-->
-                <h3>What are my skills?</h3>
-                <ul class="skills">
-                    <li><b>Languages:</b> Proficient in Python, C#, HTML, CSS, JavaScript; Competent in C and C++ </li>
-                    <li><b>Software and Systems:</b> Proficient in Microsoft Suite, Google Suite, Unity, Splunk, Jira, Figma, Git, AWS</li>
-                </ul>
-                <div class="image">
-                    <img src="skyline.jpg" alt="A photo of three skyscrapers in the later evening" width="300">
-                </div>
+                        expanding my horizons and exploring new fields of tech. I have experience in both mobile and web UI/UX
+                        design, game development, iOS and web development, as well as database management.</p>
+                </span>
+                <br>
+                <span class="infoblock">
+                    <h3>What are my technical skills?</h3>
+                    <p>I have experience picking up new languages and technologies on the fly from my time in university.
+                        Below are some of the technical skills I have picked up on the way.
+                    <ul>
+                        <li><b>Languages: </b>Python, JavaScript, HTML, CSS, C#, SQL, Java, Swift</li>
+                        <li><b>Technologies: </b>Splunk, Jira, Git, AWS, Unity, Django, React, NextJS</li>
+                        <li><b>Other: </b>Agile Design Methodology, RESTful APIs, Testing and Debugging</li>
+                    </ul>
+                </span>
+                <span class="infoblock">
+                    <h3>What are my design skills?</h3>
+                    <p>Beyond technology, I enjoy expressing myself through art and design. I have designed several
+                        high-fidelity mobile and web app interface prototypes using <b>Figma</b>. I also have experience
+                        taking a project through the full design lifecycle, from needfinding to paper prototyping to user testing.
+                    </p>
+                </span>
             </div>
         </div>
         <div id="resume">
             <h1>Resume</h1>
-            <a class="downloadButton" href="Resume.pdf" download="rruddyResume">Download (pdf)</a> 
+            <a class="downloadButton" href="Resume.pdf" download="rruddyResume">Download (pdf)</a>
         </div>
         <div id="projects">
             <h1>Projects</h1>
+            <div>
+                <!--Design projects-->
+                <!--Development projects-->
+                <!--Do not separate projects by type until there are enough projects to justify it-->
+            </div>
         </div>
         <div id="contact">
             <h1>Contact</h1>
