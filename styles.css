@@ -15,7 +15,7 @@ body {
 .topnav {
     background-color:rgb(24, 17, 68);
     overflow:hidden;
-    padding: 20px 10px;
+    padding: 20px 20px;
     font-family:Didot;
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +37,7 @@ body {
     color:white !important;
     float: left;
     text-align: center;
-    padding: 8px;
+    padding: 6px;
     font-size: 20px;
     line-height: 25px;
     border-radius: 4px;
@@ -76,18 +76,42 @@ main {
     line-height:150%;
 }
 
-#home {
-    display:grid;
-}
-
 main h1 {
     line-height:200%;
     color:#083458;
+    text-align: center;
+}
+
+#hometext {
+    /* display:inline-block; */
+    text-align:center;
+}
+
+.infoblock {
+    display:inline-block;
+    vertical-align:top;
+    width: 33%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:left;
 }
 
 #textbody {
     padding:50px;
 }
+
+ul {
+    text-align:left;
+    padding-left:20px;
+}
+
+/* hr {
+    width:5%;
+    justify-content:center;
+    color:black;
+} */
 
 footer {
     font-family:Didot;
