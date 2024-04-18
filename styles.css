@@ -154,14 +154,14 @@ footer {
 }
 
 .buttons {
-    margin-left:50px;
+    margin-left:4%;
     display:flex;
     flex-wrap:wrap;
 }
 
 .buttonMargin {
     margin-bottom:25px;
-    margin-left: 50px;
+    margin-left: 4%;
 }
 
 .downloadButton:hover {
