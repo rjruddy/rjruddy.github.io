@@ -147,10 +147,17 @@ footer {
     padding: 15px 20px;
     text-decoration:none;
     border-radius: 8px;
+    white-space:nowrap;
+    /* margin-top:50px; */
+}
+
+.buttons {
+    margin-left:50px;
 }
 
 .buttonMargin {
     margin-bottom:25px;
+    margin-left: 50px;
 }
 
 .downloadButton:hover {
@@ -165,7 +172,13 @@ footer {
 }
 
 .projectWidget {
-    height:50px;
-    width:50px;
-    display:flexbox;
+    display:inline-block;
+    padding:10px;
+    white-space:normal;
 }
+
+.projectWidget p {
+    max-width:325px;
+    font-size: 15px;
+}
+
