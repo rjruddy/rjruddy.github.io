@@ -173,12 +173,14 @@ footer {
     white-space:nowrap;
     background-color:rgb(146, 165, 189);
     margin: 15px;
+    margin-bottom:40px;
 }
 
 .projectWidget {
     display:inline-block;
     padding:10px;
     white-space:normal;
+    /* vertical-align:top; */
 }
 
 .projectWidget p {
