@@ -190,11 +190,12 @@ footer {
 
 .paragraph {
     margin-left: 4%;
-    padding:30px;
+    padding:20px;
 }
 
 .contactButton {
     padding:10px;
+    margin-bottom:30px;
     border:none;
     background:none;
 }
@@ -205,6 +206,11 @@ footer {
 
 #contactSites {
     margin-left:6%;
-    padding-top: 40px;
+    padding-top: 30px;
+    text-decoration:none;
+}
+
+#contactSites a {
+    text-decoration:none;
 }
 
