@@ -156,3 +156,16 @@ footer {
 .downloadButton:hover {
     background-color:rgb(53, 22, 53);
 }
+
+.scrollMenu {
+    overflow:auto;
+    white-space:nowrap;
+    background-color:rgb(146, 165, 189);
+    margin: 15px;
+}
+
+.projectWidget {
+    height:50px;
+    width:50px;
+    display:flexbox;
+}
