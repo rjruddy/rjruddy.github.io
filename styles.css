@@ -188,3 +188,23 @@ footer {
     font-size: 15px;
 }
 
+.paragraph {
+    margin-left: 4%;
+    padding:30px;
+}
+
+.contactButton {
+    padding:10px;
+    border:none;
+    background:none;
+}
+
+.contactButton:hover {
+    transform:scale(1.2);
+}
+
+#contactSites {
+    margin-left:6%;
+    padding-top: 40px;
+}
+
