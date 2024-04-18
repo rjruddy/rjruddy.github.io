@@ -148,11 +148,15 @@ footer {
     text-decoration:none;
     border-radius: 8px;
     white-space:nowrap;
-    /* margin-top:50px; */
+    min-height:30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .buttons {
     margin-left:50px;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .buttonMargin {
