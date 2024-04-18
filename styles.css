@@ -188,6 +188,11 @@ footer {
     font-size: 15px;
 }
 
+.projectWidget a, a:visited {
+    text-decoration:none;
+    color:black;
+}
+
 .paragraph {
     margin-left: 4%;
     padding:20px;
