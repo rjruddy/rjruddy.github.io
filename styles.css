@@ -101,6 +101,12 @@ main h1 {
     text-align:left;
 }
 
+@media (width <= 1000px) {
+    .infoblock {
+        width: 90%
+    }
+}
+
 #textbody {
     padding:50px;
 }
