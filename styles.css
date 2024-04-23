@@ -193,6 +193,10 @@ footer {
     color:black;
 }
 
+.projectWidget a:hover {
+    color:#7d006f;
+}
+
 .paragraph {
     margin-left: 4%;
     padding:20px;
