@@ -189,7 +189,7 @@ footer {
 }
 
 .projectWidget a, a:visited {
-    text-decoration:none;
+    /* text-decoration:none; */
     color:black;
 }
 
