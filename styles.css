@@ -93,11 +93,11 @@ main h1 {
 .infoblock {
     display:inline-block;
     vertical-align:top;
-    width: 45%;
+    width: 42%;
     padding-top: 5px;
     padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align:left;
 }
 
